@@ -1,0 +1,41 @@
+body {
+    color: white;
+}
+
+header, .ms-footer-bottom {
+    min-height: 100px;
+    background-color: rgb(47, 62, 78);
+}
+
+.ms-jumbotron, .ms-about {
+    min-height: 400px;
+    background-color: rgb(87, 184, 157);
+}
+
+.ms-portfolio {
+    min-height: 400px;
+    background-color: rgb(174, 82, 100);
+}
+
+.ms-contact {
+    min-height: 400px;
+    background-color: burlywood;
+}
+
+.ms-footer-top {
+    min-height: 400px;
+    background-color: rgb(63, 84, 107); 
+}
+
+.ms-jumbotron-col,
+.ms-portfolio-col, 
+.ms-about-col,
+.ms-contact-col,
+.ms-footer-top-col {
+    height: 100px;
+    border: 1px solid black;
+}
+
+
+
+

@@ -12,7 +12,7 @@
 
 #ms-jumbotron .star::after {
     content: '';
-    width: 100px;
+    width: 120px;
     height: 3px;
     background-color: white;
     display: inline-block;
@@ -20,8 +20,24 @@
 
 #ms-jumbotron .star::before {
     content: '';
-    width: 100px;
+    width: 120px;
     height: 3px;
     background-color: white;
+    display: inline-block;
+}
+
+#ms-portfolio .star::after {
+    content: '';
+    width: 150px;
+    height: 3px;
+    background-color: black;
+    display: inline-block;
+} 
+
+#ms-portfolio .star::before {
+    content: '';
+    width: 150px;
+    height: 3px;
+    background-color: black;
     display: inline-block;
 }

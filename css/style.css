@@ -14,69 +14,26 @@
     width: 200px;
 }
 
-#ms-jumbotron .star::after {
+.star::after, .star::before {
     content: '';
-    width: 120px;
+    width: 10%;
     height: 3px;
-    background-color: white;
-    display: inline-block;
-}
-
-#ms-jumbotron .star::before {
-    content: '';
-    width: 120px;
-    height: 3px;
-    background-color: white;
-    display: inline-block;
-}
-
-#ms-portfolio .star::after {
-    content: '';
-    width: 150px;
-    height: 3px;
-    background-color: black;
     display: inline-block;
 } 
 
-#ms-portfolio .star::before {
-    content: '';
-    width: 150px;
-    height: 3px;
-    background-color: black;
-    display: inline-block;
-}
-
-#ms-about .star::after {
-    content: '';
-    width: 10%;
-    height: 3px;
-    background-color: white;
-    display: inline-block;
-}
-
+#ms-jumbotron .star::after,
+#ms-jumbotron .star::before,
+#ms-about .star::after,
 #ms-about .star::before {
-    content: '';
-    width: 10%;
-    height: 3px;
     background-color: white;
-    display: inline-block;
 }
 
-#ms-contact .star::after {
-    content: '';
-    width: 10%;
-    height: 3px;
-    background-color: black;
-    display: inline-block;
-}
-
+#ms-portfolio .star::after,
+#ms-portfolio .star::before,
+#ms-contact .star::after,
 #ms-contact .star::before {
-    content: '';
-    width: 10%;
-    height: 3px;
     background-color: black;
-    display: inline-block;
-}
+} 
 
 #ms-contact .form-control {
     border: 0;
